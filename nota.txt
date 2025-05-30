@@ -1,0 +1,17 @@
+SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that 
+gives application developers the full power and flexibility of SQL.
+
+ORM: As tabelas do banco de dados são representadas através de classes
+e os registros de cada tabela são representadas como instâncias dados
+classes  correspondentes.
+
+-------------------------------------
+Banco de dados | Programação
+relacional     | Orientação Objeto
+-------------------------------------
+            -->
+            <--
+   tabela           classe           
+   Coluna           Atributo
+   Registro         Objeto
+

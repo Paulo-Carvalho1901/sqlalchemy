@@ -3,7 +3,7 @@ gives application developers the full power and flexibility of SQL.
 
 ORM: As tabelas do banco de dados são representadas através de classes
 e os registros de cada tabela são representadas como instâncias dados
-classes  correspondentes.
+classes correspondentes.
 
 -------------------------------------
 Banco de dados | Programação
@@ -14,4 +14,13 @@ relacional     | Orientação Objeto
    tabela           classe           
    Coluna           Atributo
    Registro         Objeto
+
+Engine: The Engine is the starting point for my SQLAlchemy
+from sqlachemy import create_engine
+engine = create_engine(conexão com banco de dados)
+
+Pooling: um pool de conexões é uma tecnicas padrão usada
+para manter conexões de longa execução na memoria para 
+reutilização eficiente, bem como fornecer gerenciamento para
+o número total de conexões que um aplicativo pode usar simultaneamente
 
